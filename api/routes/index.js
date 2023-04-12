@@ -16,13 +16,9 @@ app.disable("x-powered-by");
 // import routes
 import auth from "./auth";
 import user from "./user";
-import scholarship from "./scholarship";
-import applicant from "./applicant";
 
 // use routes
 app.use('/api/auth', auth)
 app.use('/api/user', user)
-app.use('/api/scholarship', scholarship)
-app.use('/api/applicant', applicant)
 
 module.exports = app

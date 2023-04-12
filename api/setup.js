@@ -8,7 +8,7 @@ const {
     ADMIN_EMAIL,
     ADMIN_PASSWORD
 } = process.env;
-import sampleUsers from "./samples/sample.applicants";
+
 
 export default () => {
     Database.connect()
